@@ -41,7 +41,10 @@ class company :
     #  print("choudhary & sons")
 
 class salary :
-    salary_person:433
+    salary_person=433
+
+    def __init__ (self):
+       print ("ashish choudhary")
   
 class employee(company,salary) :
     print("ashish choudhary")
